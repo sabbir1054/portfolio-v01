@@ -1,0 +1,274 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+/* X-Small devices (portrait phones, less than 576px)  */
+@media (max-width: 575.98px) {
+    #hero h3{
+        font-size: 20px;
+    }
+    .ml5{
+        font-size: 10vw;
+        margin: 100px 0;
+    }
+    .ml5 .line{
+        display: none;
+    }
+    .ml12{
+        font-size: 21px;
+    }
+    .nav-ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    #about-me{
+        background-color: #1F1F1F;
+        height: 120vh;
+        
+    }
+    .heading{
+        text-align: center;
+        font-size: 4em;
+    }
+    .about-me-right h3{
+        font-size: 35px;
+    }
+    #footer{
+        
+        font-size: 18px;
+        display: block;
+        position: relative;
+        
+    }
+    #footer img{
+        width: 50%;
+    }
+    #contact{
+        height: 110vh;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .ml5 {
+        font-size: 7vw;
+        margin: 100px 0;
+    }
+    .nav-ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about-me {
+        background-color: #1F1F1F;
+        height: 120vh;
+
+    }
+
+    .heading {
+        text-align: center;
+        font-size: 4em;
+    }
+
+    .about-me-right h3 {
+        font-size: 35px;
+    }
+
+    #footer {
+        
+        font-size: 18px;
+        display: block;
+        position: relative;
+        height: 30vh;
+        padding-bottom: 300px;
+
+    }
+    #contact{
+        height: 130vh;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .ml5 {
+        font-size: 7vw;
+        margin: 100px 0;
+    }
+    .heading {
+        text-align: center;
+        font-size: 4em;
+    }
+    #about-me {
+        background-color: #1F1F1F;
+    
+
+    }
+    #footer {
+
+        font-size: 18px;
+        display: block;
+        position: relative;
+        height: 30vh;
+        padding-bottom: 300px;
+
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #header,
+    #about-me,
+    #skill,
+    #git-profile,
+    #projects,
+    #contact {
+        height: 100vh;
+        scroll-snap-align: start;
+        transition: all 0.3s ease-in;
+    }
+
+    #projects {
+        height: 150vh;
+        scroll-snap-align: start;
+    }
+
+    #footer {
+        height: 30vh;
+        scroll-snap-align: start;
+    }
+
+    .container_wrapper {
+        height: 100vh;
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+        scroll-padding: 25px;
+    }
+    #contact {
+        height: 130vh;
+    }
+    
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+    #header,
+    #about-me,
+    #skill,
+    #git-profile,
+    #projects,
+    #contact {
+        height: 100vh;
+        scroll-snap-align: start;
+        transition: all 0.3s ease-in;
+    }
+
+    #projects {
+        height: 130vh;
+        scroll-snap-align: start;
+        background-color: #2B2A6F;
+    }
+
+    #footer {
+        height: 30vh;
+        scroll-snap-align: start;
+    }
+
+    .container_wrapper {
+        height: 100vh;
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+        scroll-padding: 25px;
+    }
+    #contact {
+        height: 130vh;
+    }
+
+}
+
+/* // XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width */
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+
+    #header,
+    #about-me,
+    #skill,
+    #git-profile,
+    #projects,
+    #contact {
+        height: 100vh;
+        scroll-snap-align: start;
+        transition: all 0.3s ease-in;
+    }
+
+    #projects {
+        height: 110vh;
+        scroll-snap-align: start;
+    }
+
+    #footer {
+        height: 30vh;
+        scroll-snap-align: start;
+    }
+
+    .container_wrapper {
+        height: 100vh;
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+        scroll-padding: 25px;
+    }
+    #projects {
+        height: 300vh;
+        scroll-snap-align: start;
+        background-color: #2B2A6F;
+    }
+#footer {
+    height: 30vh;
+    scroll-snap-align: start;
+    padding-bottom: 300px;
+}
+#contact {
+    height: 150vh;
+}
+}
+/* 
+@media (min-width: 1600px){
+
+    #header,
+    #about-me,
+    #skill,
+    #git-profile,
+    #projects,
+    #contact {
+        height: 100vh;
+        scroll-snap-align: start;
+        transition: all 0.3s ease-in;
+    }
+
+    #projects {
+        height: 110vh;
+        scroll-snap-align: start;
+    }
+
+    #footer {
+        height: 30vh;
+        scroll-snap-align: start;
+        padding-bottom: 300px;
+    }
+
+    .container_wrapper {
+        height: 100vh;
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+        scroll-padding: 25px;
+    }
+
+    #projects {
+        height: 120vh;
+        scroll-snap-align: start;
+        background-color: #2B2A6F;
+    }
+
+
+} */

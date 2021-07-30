@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* scroll-snap-type: y mandatory;
+    overflow-y: scroll; */
+
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.heading {
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 7vw;
+    font-weight: 700;
+    color: #6345B5;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(153, 153, 153);
+}
+
+header {
+    background-image: url(images/Bg01.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+/* Hero */
+#hero {
+    text-align: center;
+    padding-top: 20vh;
+}
+
+#hero h3 {
+    font-family: Baskerville,
+        serif;
+    color: #733FE2;
+    font-size: 2rem;
+    letter-spacing: 5px;
+}
+
+/* *****************
+    Hero text
+******************** */
+.ml5 {
+    position: relative;
+    font-weight: 300;
+    font-size: 5.5em;
+    color: #ffffff;
+}
+
+.ml5 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+    line-height: 1em;
+}
+
+.ml5 .line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 3px;
+    width: 100%;
+    background-color: #522ed6;
+    transform-origin: 0.5 0;
+}
+
+.ml5 .ampersand {
+    font-family: Baskerville, serif;
+    font-style: italic;
+    font-weight: 400;
+    width: 1em;
+    margin-right: -0.1em;
+    margin-left: -0.1em;
+}
+
+.ml5 .letters {
+    display: inline-block;
+    opacity: 0;
+}
+
+/* **********
+Hero Bottom
+************* */
+.hero-bottom {
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.ml12 {
+    font-weight: 200;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+.ml12 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+
+
+
+/* ==================
+Navigation
+===================== */
+
+
+.nav-link {
+    padding-right: 6rem;
+}
+
+
+
+
+/* *****************SCROLL**************************** */
+
+
+/* ===================
+    About Me
+============================== */
+
+#about-me {
+    background-image: url(images/BG02.svg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.about {
+    padding-top: 10vh;
+}
+
+.about-me-right h3 {
+    font-size: 3vw;
+    color: #733FE2;
+}
+
+.about-me-right p {
+    font-size: 18px;
+    padding: 20px 30px;
+    padding-left: 0px;
+    text-align: justify;
+    color: #a5a5a5;
+}
+
+.btn-bg {
+    background-color: #6345B5;
+    border: 2px solid white;
+    outline: none;
+}
+
+/* ===================
+Skills
+======================== */
+#skill {
+    background-color: #1F1F1F;
+    height: 100vh;
+}
+
+.skill-right img {
+    width: 100%;
+}
+
+.skills .heading {
+    color: #141414;
+    text-align: center;
+}
+
+.skill-left {
+    background-color: rgb(19 19 19 / 27%);
+    border-radius: 50px;
+    margin: 0 20%;
+    width: 90%;
+
+}
+
+.skill-name {
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.progress-bg {
+    width: 100%;
+    padding: 10px 0px;
+    padding-left: 100px;
+
+}
+
+.skill-name label p {
+    color: white;
+    margin: 0;
+}
+
+.progress-bar {
+    background-color: #6345B5;
+}
+
+/* Github profile */
+#git-profile {
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #2e2a68 74%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins",
+        sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+#git-profile .heading {
+    font-size: 4rem;
+}
+
+#git-profile .card {
+    background-color: #4c2885;
+    background-image: linear-gradient(315deg, #4c2885 0%, #4c11ac 100%);
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+        0 15px 40px rgba(0, 0, 0, 0.1);
+    display: flex;
+    padding: 3rem;
+    max-width: 800px;
+}
+
+.avatar {
+    border: 10px solid #2a2a72;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.user-info {
+    color: #eee;
+    margin-left: 2rem;
+}
+
+.user-info h2 {
+    margin-top: 0;
+}
+
+.user-info ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+}
+
+.user-info ul li {
+    display: flex;
+    align-items: center;
+}
+
+.user-info ul li strong {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+.repo {
+    background-color: #2a2a72;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
+
+/*  */
+#projects {
+    background-color: #2B2A6F;
+    padding-bottom: 5vh;
+}
+
+#projects .heading {
+    font-size: 4rem;
+    padding: 30px 0;
+}
+
+.more-btn {
+    width: 200px;
+    height: 50px;
+}
+
+#contact {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form {
+    height: 70vh;
+}
+
+.contact-right-heading,
+.contact-left-heading {
+    color: #212529;
+    padding: 30px 0;
+}
+
+.contact-left-bg {
+    background-color: #6345B5;
+}
+
+.contact-left p a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.contact-right {
+    padding: 5vh 50px;
+}
+
+#footer {
+    height: 30vh;
+    background-color: black
+}
+
+#footer img {
+    width: 500px;
+}
