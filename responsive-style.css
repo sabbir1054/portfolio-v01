@@ -5,56 +5,23 @@ body {
 
 /* X-Small devices (portrait phones, less than 576px)  */
 @media (max-width: 575.98px) {
-    #hero h3{
+    #hero h3 {
         font-size: 20px;
     }
-    .ml5{
+
+    .ml5 {
         font-size: 10vw;
         margin: 100px 0;
     }
-    .ml5 .line{
+
+    .ml5 .line {
         display: none;
     }
-    .ml12{
+
+    .ml12 {
         font-size: 21px;
     }
-    .nav-ul{
-        flex-direction: column;
-        align-items: center;
-    }
-    #about-me{
-        background-color: #1F1F1F;
-        height: 120vh;
-        
-    }
-    .heading{
-        text-align: center;
-        font-size: 4em;
-    }
-    .about-me-right h3{
-        font-size: 35px;
-    }
-    #footer{
-        
-        font-size: 18px;
-        display: block;
-        position: relative;
-        
-    }
-    #footer img{
-        width: 50%;
-    }
-    #contact{
-        height: 110vh;
-    }
-}
 
-/* Small devices (landscape phones, less than 768px) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-    .ml5 {
-        font-size: 7vw;
-        margin: 100px 0;
-    }
     .nav-ul {
         flex-direction: column;
         align-items: center;
@@ -76,7 +43,51 @@ body {
     }
 
     #footer {
-        
+
+        font-size: 18px;
+        display: block;
+        position: relative;
+
+    }
+
+    #footer img {
+        width: 50%;
+    }
+
+    #contact {
+        height: 110vh;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .ml5 {
+        font-size: 7vw;
+        margin: 100px 0;
+    }
+
+    .nav-ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about-me {
+        background-color: #1F1F1F;
+        height: 120vh;
+
+    }
+
+    .heading {
+        text-align: center;
+        font-size: 4em;
+    }
+
+    .about-me-right h3 {
+        font-size: 35px;
+    }
+
+    #footer {
+
         font-size: 18px;
         display: block;
         position: relative;
@@ -84,7 +95,8 @@ body {
         padding-bottom: 300px;
 
     }
-    #contact{
+
+    #contact {
         height: 130vh;
     }
 }
@@ -95,15 +107,18 @@ body {
         font-size: 7vw;
         margin: 100px 0;
     }
+
     .heading {
         text-align: center;
         font-size: 4em;
     }
+
     #about-me {
         background-color: #1F1F1F;
-    
+
 
     }
+
     #footer {
 
         font-size: 18px;
@@ -117,6 +132,7 @@ body {
 
 /* Large devices (desktops, less than 1200px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
     #header,
     #about-me,
     #skill,
@@ -144,10 +160,11 @@ body {
         scroll-snap-type: y mandatory;
         scroll-padding: 25px;
     }
+
     #contact {
         height: 130vh;
     }
-    
+
 }
 
 /* X-Large devices (large desktops, less than 1400px) */
@@ -181,6 +198,7 @@ body {
         scroll-snap-type: y mandatory;
         scroll-padding: 25px;
     }
+
     #contact {
         height: 130vh;
     }
@@ -218,22 +236,25 @@ body {
         scroll-snap-type: y mandatory;
         scroll-padding: 25px;
     }
+
     #projects {
-        height: 300vh;
+        height: 170vh;
         scroll-snap-align: start;
         background-color: #2B2A6F;
     }
-#footer {
-    height: 30vh;
-    scroll-snap-align: start;
-    padding-bottom: 300px;
+
+    #footer {
+        height: 40vh;
+        scroll-snap-align: start;
+        padding-bottom: 300px;
+    }
+
+    #contact {
+        height: 150vh;
+    }
 }
-#contact {
-    height: 150vh;
-}
-}
-/* 
-@media (min-width: 1600px){
+
+@media (min-width: 1600px) {
 
     #header,
     #about-me,
@@ -271,4 +292,4 @@ body {
     }
 
 
-} */
+}
