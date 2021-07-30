@@ -182,13 +182,13 @@ body {
     }
 
     #projects {
-        height: 130vh;
+        height: 170vh;
         scroll-snap-align: start;
         background-color: #2B2A6F;
     }
 
     #footer {
-        height: 30vh;
+        height: 40vh;
         scroll-snap-align: start;
     }
 
@@ -220,15 +220,8 @@ body {
         transition: all 0.3s ease-in;
     }
 
-    #projects {
-        height: 110vh;
-        scroll-snap-align: start;
-    }
 
-    #footer {
-        height: 30vh;
-        scroll-snap-align: start;
-    }
+
 
     .container_wrapper {
         height: 100vh;
