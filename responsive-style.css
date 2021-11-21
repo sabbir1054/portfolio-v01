@@ -29,7 +29,7 @@ body {
 
     #about-me {
         background-color: #1F1F1F;
-        height: 120vh;
+    
 
     }
 
@@ -42,21 +42,16 @@ body {
         font-size: 35px;
     }
 
-    #footer {
+    footer {
 
         font-size: 18px;
-        display: block;
-        position: relative;
-
+      
     }
 
     #footer img {
         width: 50%;
     }
 
-    #contact {
-        height: 110vh;
-    }
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -73,7 +68,7 @@ body {
 
     #about-me {
         background-color: #1F1F1F;
-        height: 120vh;
+       
 
     }
 
@@ -86,13 +81,10 @@ body {
         font-size: 35px;
     }
 
-    #footer {
+    footer {
 
         font-size: 18px;
-        display: block;
-        position: relative;
-        height: 30vh;
-        padding-bottom: 300px;
+        
 
     }
 
@@ -119,13 +111,12 @@ body {
 
     }
 
-    #footer {
+    footer {
 
         font-size: 18px;
         display: block;
-        position: relative;
-        height: 30vh;
-        padding-bottom: 300px;
+      
+        
 
     }
 }
@@ -139,20 +130,10 @@ body {
     #git-profile,
     #projects,
     #contact {
-        height: 100vh;
-        scroll-snap-align: start;
+        
         transition: all 0.3s ease-in;
     }
 
-    #projects {
-        height: 150vh;
-        scroll-snap-align: start;
-    }
-
-    #footer {
-        height: 30vh;
-        scroll-snap-align: start;
-    }
 
     .container_wrapper {
         height: 100vh;
@@ -161,9 +142,7 @@ body {
         scroll-padding: 25px;
     }
 
-    #contact {
-        height: 130vh;
-    }
+   
 
 }
 
@@ -176,21 +155,16 @@ body {
     #git-profile,
     #projects,
     #contact {
-        height: 100vh;
-        scroll-snap-align: start;
+        
         transition: all 0.3s ease-in;
     }
 
     #projects {
-        height: 170vh;
-        scroll-snap-align: start;
+        
         background-color: #2B2A6F;
     }
 
-    #footer {
-        height: 40vh;
-        scroll-snap-align: start;
-    }
+    
 
     .container_wrapper {
         height: 100vh;
@@ -199,9 +173,7 @@ body {
         scroll-padding: 25px;
     }
 
-    #contact {
-        height: 130vh;
-    }
+    
 
 }
 
@@ -215,8 +187,7 @@ body {
     #git-profile,
     #projects,
     #contact {
-        height: 100vh;
-        scroll-snap-align: start;
+      
         transition: all 0.3s ease-in;
     }
 
@@ -231,17 +202,11 @@ body {
     }
 
     #projects {
-        height: 170vh;
-        scroll-snap-align: start;
+        
         background-color: #2B2A6F;
     }
 
-    #footer {
-        height: 40vh;
-        scroll-snap-align: start;
-        padding-bottom: 300px;
-    }
-
+  
     #contact {
         height: 150vh;
     }
@@ -255,21 +220,15 @@ body {
     #git-profile,
     #projects,
     #contact {
-        height: 100vh;
-        scroll-snap-align: start;
+       
         transition: all 0.3s ease-in;
     }
 
     #projects {
-        height: 110vh;
-        scroll-snap-align: start;
+       
     }
 
-    #footer {
-        height: 30vh;
-        scroll-snap-align: start;
-        padding-bottom: 300px;
-    }
+    
 
     .container_wrapper {
         height: 100vh;
@@ -279,8 +238,7 @@ body {
     }
 
     #projects {
-        height: 120vh;
-        scroll-snap-align: start;
+       
         background-color: #2B2A6F;
     }
 

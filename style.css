@@ -11,16 +11,9 @@
 body {
     margin: 0;
     padding: 0;
-    /* scroll-snap-type: y mandatory;
-    overflow-y: scroll; */
-
+ 
 }
 
-html,
-body {
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-}
 
 .heading {
     font-family: 'Montserrat',
@@ -144,7 +137,7 @@ Navigation
 
 #about-me {
     background-image: url(images/BG02.svg);
-    height: 100vh;
+  
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -177,7 +170,8 @@ Skills
 ======================== */
 #skill {
     background-color: #1F1F1F;
-    height: 100vh;
+    /* height: 100vh; */
+    padding: 5vh 0;
 }
 
 .skill-right img {
@@ -229,7 +223,7 @@ Skills
     font-family: "Poppins",
         sans-serif;
     margin: 0;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 #git-profile .heading {
@@ -312,15 +306,12 @@ Skills
 #contact {
     padding-top: 5vh;
     padding-bottom: 5vh;
-    height: 100vh;
+   
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.contact-form {
-    height: 70vh;
-}
 
 .contact-right-heading,
 .contact-left-heading {
@@ -342,11 +333,14 @@ Skills
     padding: 5vh 50px;
 }
 
-#footer {
-    height: 30vh;
+footer {
+  
     background-color: black
 }
 
 #footer img {
     width: 500px;
+}
+.footer-bottom{
+    background-color: black;
 }
